@@ -19,7 +19,7 @@ public class TestStatisticsService {
     }
 
     @Test
-    void shouldFindMaxIfNotTheFirst(){
+    void shouldFindMaxIfNotTheFirst() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {2, 14, 6, 18, 5, 1};
